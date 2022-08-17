@@ -25,7 +25,7 @@ const symbol1 = 'UNI'
 const decimals1 = 18
 const address1 = '0xc778417e063141139fce010982780140aa0cd5ab'
 
-const chainId = 3 // Ropsten
+const chainId = 4 // Rinkeby
 const WethToken = new Token(chainId, address0, decimals0, symbol0, name0)
 const UniToken = new Token(chainId, address1, decimals1, symbol1, name1)
 
